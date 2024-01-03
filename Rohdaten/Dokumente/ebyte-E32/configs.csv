@@ -1,0 +1,11 @@
+Tabelle 1
+Parameter;Aufrufbefehl;Option 1;Option 2;Option 3;Option 4;Option 5;Option 6;Option 7;Option 8
+Address (addh und addl);--addh, --addl;0x0;0x1;0x2;;;;;
+UART Parity Bit (uart_parity);--uart_parity;8N1 (0);8O1 (1);8E1 (2);;;;;
+UART Baud Rate (uart_baud);--uart_baud;1200 (0);2400 (1);4800 (2);9600 (3);19200 (4);38400 (5);57600 (6);115200 (7)
+Air Data Rate (air_data_rate);--air_data_rate;0.3k (0);1.2k (1);2.4k (2);4.8k (3);9.6k (4);19.2k (5);19.2k (6);19.2k (7)
+Transmission Mode (transmission_mode);--transmission_mode;transparent (0);fixed (1);;;;;;
+IO Drive Mode (io_drive_mode);--io_drive_mode;TXD and AUX push-pull, RXD pull-up (0);TXD, RXD and AUX open-collector (1);;;;;;
+Wake Up Time (wake_up_time);--wake_up_time;250ms (0);500ms (1);750ms (2);1000ms (3);1250ms (4);1500ms (5);1750ms (6);2000ms (7)
+FEC Switch (fec_switch);--fec_switch;off (0);on (1);;;;;;
+Transmission Power (transmission_power);--transmission_power;30dBm (0);27dBm (1);24dBm (2);21dBm (3);;;;
